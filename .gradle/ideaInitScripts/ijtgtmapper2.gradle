@@ -1,0 +1,17 @@
+ext.pathMapper = [:]
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2025.1.1.1/lib/util_rt.jar', '/tmp/tmpuQg41Y/util_rt.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2025.1.1.1/lib/external-system-rt.jar', '/tmp/tmpuQg41Y/external-system-rt.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2025.1.1.1/plugins/gradle/lib/gradle-tooling-extension-api.jar', '/tmp/tmpZ515DT/gradle-tooling-extension-api.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2025.1.1.1/plugins/gradle/lib/gradle-tooling-extension-impl.jar', '/tmp/tmpZ515DT/gradle-tooling-extension-impl.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2025.1.1.1/lib/util_rt.jar', '/tmp/tmpuQg41Y/util_rt.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2025.1.1.1/lib/external-system-rt.jar', '/tmp/tmpuQg41Y/external-system-rt.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2025.1.1.1/plugins/gradle/lib/gradle-tooling-extension-api.jar', '/tmp/tmpZ515DT/gradle-tooling-extension-api.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2025.1.1.1/plugins/gradle/lib/gradle-tooling-extension-impl.jar', '/tmp/tmpZ515DT/gradle-tooling-extension-impl.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2025.1.1.1/lib/util_rt.jar', '/tmp/tmpuQg41Y/util_rt.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2025.1.1.1/lib/external-system-rt.jar', '/tmp/tmpuQg41Y/external-system-rt.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2025.1.1.1/plugins/gradle/lib/gradle-tooling-extension-api.jar', '/tmp/tmpZ515DT/gradle-tooling-extension-api.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA 2025.1.1.1/plugins/gradle/lib/gradle-tooling-extension-impl.jar', '/tmp/tmpZ515DT/gradle-tooling-extension-impl.jar')
+ext.pathMapper.put('//wsl.localhost/Ubuntu/home/egyxh/jdk-21/bin/java', '/home/egyxh/jdk-21/bin/java')
+ext.pathMapper.put('//wsl.localhost/Ubuntu/home/egyxh/hexlet-jdbc/app', '/home/egyxh/hexlet-jdbc/app')
+ext.pathMapper.put("<<target java executable path>>", '/home/egyxh/jdk-21/bin/java')
+ext.mapPath = { path -> pathMapper.get(path) ?: path }
